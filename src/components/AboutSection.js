@@ -1,8 +1,9 @@
 import React from 'react'
+import styled from 'styled-components'
 
 function AboutSection() {
     return (
-        <div>
+        <About>
             <div className="description">
                 <div className="title">
                     <div className="hide">
@@ -23,8 +24,20 @@ function AboutSection() {
                 <img src="/images/home1.png" alt="" />
             </div>
             
-        </div>
+        </About>
     )
 }
 
+
+const About = styled.div`
+min-height:90vh;
+display:flex;
+padding:5rem 10rem;
+align-items:center;
+justify-content:space-between;
+color:white;
+
+`
+
 export default AboutSection
+
