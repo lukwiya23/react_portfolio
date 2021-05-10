@@ -45,7 +45,7 @@ export default ServicesSection
 const Services = styled.div`
 min-height:90vh;
 display:flex;
-padding:5rem 5rem;
+padding:5rem 2rem;
 align-items:center;
 justify-content:space-between;
 color:white;
@@ -63,7 +63,16 @@ const Description = styled.div`
 flex:1;
 padding-right:5rem;
 `
-const Image = styled.div``
+const Image = styled.div`
+flex:1;
+overflow:hidden;
+
+img{
+    width:100%;
+    height:80vh;
+    object-fit:cover;
+}
+`
 
 const Cards = styled.div`
 display:flex;
