@@ -29,7 +29,7 @@ function AboutSection() {
 }
 
 
-const About = styled.div`
+export const About = styled.div`
 min-height:90vh;
 display:flex;
 padding:5rem 2rem;
