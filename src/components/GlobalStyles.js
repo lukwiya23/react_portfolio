@@ -37,6 +37,16 @@ h2{
     h3{
         color:white;
     }
+    h4{
+        font-weight:bold;
+        
+    }
+    a{
+        font-size:1.1rem
+    }
+    span{
+        color: #23d997;
+    }
     p{
         padding:3rem 0rem;
         color:#ccc;
