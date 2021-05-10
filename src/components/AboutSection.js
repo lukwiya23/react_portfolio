@@ -32,7 +32,7 @@ function AboutSection() {
 const About = styled.div`
 min-height:90vh;
 display:flex;
-padding:5rem 10rem;
+padding:5rem 5em;
 align-items:center;
 justify-content:space-between;
 color:white;
