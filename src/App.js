@@ -5,6 +5,7 @@ import NavBar from './components/NavBar'
 import ContactUs from './pages/ContactUs'
 import OurWork from './pages/OurWork'
 import {Switch, Route} from 'react-router-dom'
+import MovieDetail from './pages/MovieDetail'
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
       < AboutUs  />
       </Route>
       <Route path="/work" >
- 
       < OurWork  />
+      </Route>
+      <Route exact path="/work/:id">
+        <MovieDetail />
       </Route>
       <Route path="/contact">
       < ContactUs  />
