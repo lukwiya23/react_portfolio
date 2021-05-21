@@ -70,4 +70,4 @@ const Award = ()=>{
     </div>
 }
 export default MovieDetail
-ooo
+ooo.
